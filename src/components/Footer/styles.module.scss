@@ -15,4 +15,10 @@
   .copy {
     margin-left: 1rem;
   }
+
+  @media (max-width: 970px) {
+    .footer {
+      padding: 1.5rem 1rem;
+    }
+  }
 }
