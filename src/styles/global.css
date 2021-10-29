@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sr-only {
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.Toastify__toast-icon,
+.Toastify__close-button {
+  display: none;
+}
+
+body .Toastify .Toastify__toast-container .Toastify__toast--success {
+  background: #12de60;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+body .Toastify .Toastify__toast-container .Toastify__toast--error {
+  background: #ff5614;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1rem;
+}

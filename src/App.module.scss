@@ -1,0 +1,31 @@
+.container {
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+
+  background-color: #f2f2fa;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    flex: 1;
+
+    .containerForm {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      h1 {
+        align-self: flex-start;
+        font-weight: 1.5rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

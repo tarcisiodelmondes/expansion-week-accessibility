@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+
+  color: #fff;
+  background-color: #29292e;
+
+  .username {
+    color: #3a86ff;
+  }
+
+  .copy {
+    margin-left: 1rem;
+  }
+}
